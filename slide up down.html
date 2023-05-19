@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+        .m
+        {
+            height: 80px;
+            background: lightpink;
+            border: 2px solid;
+        }
+        .a
+        {
+            /* height: 200px; */
+            background: lightgoldenrodyellow;
+            border: 2px solid;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="m"><h1>Hiiiiii(CLICK ME)</h1></div>
+    <div class="a"><h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur blanditiis beatae, tempore est saepe obcaecati? Ex ea tempore omnis dolorum laboriosam! Mollitia dolor incidunt numquam aperiam totam quasi consectetur quibusdam!</h1></div>
+    <script>
+        $('.m').click(
+            function()
+            {
+                $('.a').slideToggle();
+            }
+        )
+
+    </script>
+    
+</body>
+</html>
